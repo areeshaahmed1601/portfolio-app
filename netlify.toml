@@ -1,3 +1,4 @@
 [build]
-  publish = "build"
-  command = "echo 'default context'"
+  base    = "subdirectory"
+  publish = "subdirectory/dist/"
+  command = "your build command"
